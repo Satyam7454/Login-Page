@@ -1,11 +1,8 @@
-/* Reset some default browser styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Fullscreen background */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f7fa;
@@ -14,8 +11,6 @@ body {
     align-items: center;
     height: 100vh;
 }
-
-/* Container for the login form */
 .login-container {
     background-color: transparent;
     border-radius: 8px;
@@ -25,28 +20,20 @@ body {
     max-width: 400px;
     text-align: center;
 }
-
-/* Form heading */
 h2 {
     margin-bottom: 20px;
     color: white;
 }
-
-/* Input group styling */
 .input-group {
     margin-bottom: 15px;
     text-align: left;
 }
-
-/* Label styling */
 .input-group label {
     font-size: 14px;
     color: white;
     display: block;
     margin-bottom: 5px;
 }
-
-/* Input field styling */
 .input-group input {
     width: 100%;
     padding: 10px;
@@ -55,14 +42,10 @@ h2 {
     border-radius: 4px;
     transition: border-color 0.3s;
 }
-
-/* Input focus effect */
 .input-group input:focus {
     border-color: #007bff;
     outline: none;
 }
-
-/* Button styling */
 .btn-login {
     width: 100%;
     padding: 10px;
@@ -74,13 +57,9 @@ h2 {
     cursor: pointer;
     transition: background-color 0.3s;
 }
-
-/* Button hover effect */
 .btn-login:hover {
     background-color: #0056b3;
 }
-
-/* Forgot password link */
 .forgot-password {
     margin-top: 10px;
 }
